@@ -4,7 +4,7 @@
     "buildCommand": "npm install"
   },
   "deploy": {
-    "startCommand": "npx ts-node server/index.ts",
+    "startCommand": "npx ts-node --project tsconfig.server.json server/index.ts",
     "restartPolicyType": "ON_FAILURE"
   }
 }

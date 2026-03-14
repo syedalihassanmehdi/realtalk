@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es2017",
+    "module": "CommonJS",
+    "target": "ES2020",
     "esModuleInterop": true,
-    "outDir": "./dist",
-    "rootDir": "./",
-    "strict": false
+    "moduleResolution": "node",
+    "outDir": "./dist-server"
   },
-  "include": [
-    "server/**/*"
-  ]
+  "include": ["server/**/*"]
 }
